@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px; /* กำหนดความกว้างสูงสุด */
+    margin: 0 auto;   /* ทำให้หน้าเว็บอยู่กึ่งกลาง */
+}
+
+table {
+    margin: 20px;
+    width: 80%;
+}
+
+.profile-pic {
+    width: 300px; /* ขยายขนาดของรูปภาพ */
+    height: 300px; /* ขยายขนาดของรูปภาพ */
+    border-radius: 50%;
+    margin-right: 20px; /* ระยะห่างระหว่างรูปกับข้อมูล */
+    vertical-align: middle; /* ทำให้รูปอยู่กึ่งกลางกับข้อความในแนวตั้ง */
+}
+
+table.profile-info {
+    border: none; /* ลบเส้นขอบของตาราง */
+    width: 80%; /* ปรับให้ขนาดของตารางพอดีกับข้อมูล */
+    margin: 20px auto; /* จัดให้อยู่กึ่งกลางของหน้าเว็บ */
+}
+
+table.profile-info td {
+    border: none; /* ลบเส้นขอบของเซลล์ */
+    padding: 10px; /* เพิ่มพื้นที่ภายในเซลล์ */
+    vertical-align: middle; /* จัดข้อความให้อยู่กลางเซลล์แนวตั้ง */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    margin: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Skill Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+/* Margin between profile image and text */
+table tr td img {
+    margin-right: 20px;
+}
